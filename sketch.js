@@ -221,19 +221,19 @@ function mainDraw(){
   if(bgmCount>bgmCountSet*4){bgmCount=0;}
   switch(bgmCount){
     case 0:
-      bgm_00.play(0,1,soundVol*0.5);
+      //bgm_00.play(0,1,soundVol*0.5);
       bgmPart = 0;
       break;
     case bgmCountSet:
-      bgm_01.play(0,1,soundVol*0.5);
+     // bgm_01.play(0,1,soundVol*0.5);
       bgmPart = 1;
       break;
     case bgmCountSet*2:
-      bgm_02.play(0,1,soundVol*0.5);
+      //bgm_02.play(0,1,soundVol*0.5);
       bgmPart = 2;
       break;
     case bgmCountSet*3:
-      bgm_03.play(0,1,soundVol*0.5);
+      //bgm_03.play(0,1,soundVol*0.5);
       bgmPart = 3;
       break;
   } bgmCount ++;
